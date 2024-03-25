@@ -14,11 +14,17 @@ let dayName = ""
         let answer = "Non, le " + dateText + " est un week-end";
         return answer
     }
+    else
+    {
+        let answer = "Oui, le " + dateText + " est un jour travaillé";
+        return answer;
+    }
+
     
 
 }
 let myDate = new Date;
 myDate.setFullYear(2024);
 myDate.setMonth(2);
-myDate.setDate(24);
+myDate.setDate(25);
 console.log(jourTravaille(myDate));
