@@ -6,6 +6,3 @@ function citation()
     }
 
 buttonElement.addEventListener("click", citation)
-{
-    
-}

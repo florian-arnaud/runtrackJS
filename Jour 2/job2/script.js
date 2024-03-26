@@ -13,6 +13,3 @@ function showhide() {
 }
 
 buttonElement.addEventListener("click", showhide)
-{
-
-}
