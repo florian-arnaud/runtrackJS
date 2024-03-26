@@ -2,8 +2,6 @@ function jourTravaille(date)
 {
 let dayName = ""
 
-
-
     let days = ["Dimanche", "Lundi", "Mardi", "Mercredi", "Jeudi", "Vendredi", "Samedi"];
     let months = ["Janvier", "Février", "Mars", "Avril", "Mai", "Juin", "Juillet", "Août", "Septembre", "Octobre", "Novembre", "Décembre"]
     let dateText = days[date.getDay()] + " " + date.getDate() + " " + months[date.getMonth()]

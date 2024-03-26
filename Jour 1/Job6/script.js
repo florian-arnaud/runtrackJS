@@ -14,7 +14,6 @@ function fizzbuzz()
                 console.log(i + ": Buzz");
                 break
             
-
             default:
                 console.log(i);
                 break;
