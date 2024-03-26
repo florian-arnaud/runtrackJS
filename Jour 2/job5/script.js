@@ -1,6 +1,8 @@
 let footerElement = document.getElementsByTagName("footer")[0]
-
+console.log(footerElement.style.width)
 document.addEventListener("scroll", (event) => {
-      
-      console.log(window.scrollX);
+
+      footerElement.style.width = window.scrollX +"px"
+
+
 });
