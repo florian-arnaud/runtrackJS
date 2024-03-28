@@ -11,5 +11,4 @@ function jsonValueKey(json, key) {
   const keyValue = json[key]; 
   console.log(keyValue); 
 }
-
 jsonValueKey(formation, "city")
