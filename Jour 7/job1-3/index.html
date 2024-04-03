@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    </head>
+    <body>
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Accueil</a></li>
+                    <li><a href="index.html">Inscription</a></li>
+                    <li><a href="index.html">Connexion</a></li>
+                    <li><a href="index.html">Rechercher</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section>
+                <form>
+                    <fieldset>
+                        <legend>Civilité</legend>
+                        <div>
+                            <input type="radio" id="monsieur" name="gender"
+                                value="monsieur" />
+                            <label for="monsieur">Monsieur</label>
+                        </div>
+
+                        <div>
+                            <input type="radio" id="madame" name="gender"
+                                value="madame" />
+                            <label for="madame">Madame</label>
+                        </div>
+
+                        <div>
+                            <input type="radio" id="other" name="gender"
+                                value="other" />
+                            <label for="other">Autre</label>
+                        </div>
+                    </fieldset>
+
+                    <fieldset><legend>Identité</legend>
+                        <div>
+                            <label for="firstName">Prénom</label>
+                            <input type="text" name="firstName" id="firstName"
+                                placeholder="Prénom">
+                        </div>
+
+                        <div>
+                            <label for="lastName">Nom</label>
+                            <input type="text" name="lastName" id="lastName"
+                                placeholder="Nom de famile">
+                        </div>
+
+                        <div>
+                            <label for="address">Adresse</label>
+                            <input type="text" name="address" id="address">
+                        </div>
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>Compte</legend>
+                        <div>
+                            <label for="email">Adresse email</label>
+                            <input type="email" name="email" id="email">
+                        </div>
+
+                        <div>
+                            <label for="password">Mot de passe</label>
+                            <input type="password" name="password"
+                                id="password">
+                        </div>
+
+                        <div>
+                            <label for="passwordValidation">Validation du mot de
+                                passe</label>
+                            <input type="password" name="passwordValidation"
+                                id="passwordValidation">
+                        </div>
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>Passions</legend>
+                        <div>
+                            <input type="checkbox" id="hobby1" name="computing">
+                            <label for="computing">Informatique</label>
+                        </div>
+
+                        <div>
+                            <input type="checkbox" id="hobby2" name="travel">
+                            <label for="travel">Voyages</label>
+                        </div>
+
+                        <div>
+                            <input type="checkbox" id="hobby3" name="workout">
+                            <label for="workout">Sport</label>
+                        </div>
+
+                        <div>
+                            <input type="checkbox" id="hobby4" name="reading">
+                            <label for="reading">Lecture</label>
+                        </div>
+                    </fieldset>
+                    <input type="button" name="submit" id="submit" value="Submit">
+                </form>
+            </section>
+        </main>
+        <footer class="card-panel teal lighten-2 text-black">
+            <ul class="row">
+                <li class="col l3"><a href="index.html" class="black-text">Accueil</a></li>
+                <li class="col l3"><a href="index.html" class="black-text">Inscription</a></li>
+                <li class="col l3"><a href="index.html" class="black-text">Connexion</a></li>
+                <li class="col l3"><a href="index.html" class="black-text">Rechercher</a></li>
+            </ul>
+        </footer>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    </body>
+</html>
