@@ -21,11 +21,12 @@
             </nav>
         </header>
         <main>
-            <section>
+            <section class="container">
                 <form>
-                    <fieldset>
-                        <legend>Civilité</legend>
-                        <div>
+                    <fieldset class="row">
+                        <legend>
+                            <i class="material-icons">people</i>Civilité</legend>
+                        <div class="col m4 s12">
                             <label>
                                 <input type="radio" name="gender"
                                     value="male" />
@@ -33,7 +34,7 @@
                             </label>
                         </div>
 
-                        <div>
+                        <div class="col m4 s12">
                             <label>
                                 <input type="radio" name="gender"
                                     value="female" />
@@ -41,7 +42,7 @@
                             </label>
                         </div>
 
-                        <div>
+                        <div class="col m4 s12">
                             <label>
                                 <input type="radio" name="gender"
                                     value="other" />
@@ -50,7 +51,7 @@
                         </div>
                     </fieldset>
 
-                    <fieldset><legend>Identité</legend>
+                    <fieldset><legend><i class="material-icons">person</i>Informations</legend>
                         <div>
                             <label for="firstName">Prénom</label>
                             <input type="text" name="firstName" id="firstName"
@@ -70,7 +71,7 @@
                     </fieldset>
 
                     <fieldset>
-                        <legend>Compte</legend>
+                        <legend><i class="material-icons">laptop_windows</i> Compte</legend>
                         <div>
                             <label for="email">Adresse email</label>
                             <input type="email" name="email" id="email">
@@ -91,7 +92,7 @@
                     </fieldset>
 
                     <fieldset>
-                        <legend>Passions</legend>
+                        <legend><i class="material-icons">insert_emoticon</i> Passions</legend>
                         <div>
                             <label>
                                 <input type="checkbox" id="hobby1"
