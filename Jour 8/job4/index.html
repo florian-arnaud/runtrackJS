@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="./output.css" rel="stylesheet">
+        <script src="https://cdn.tailwindcss.com"></script>
+        <title>Document</title>
+    </head>
+    <body>
+        <header class="bg-indigo-500">
+            <nav class="font-sans flex flex-col text-center sm:flex-row sm:text-left sm:justify-between py-4 px-6 bg-[#A7E2E3] shadow sm:items-baseline w-full">
+                <div class="mb-2 sm:mb-0">
+                  <a href="#" class="text-2xl no-underline text-grey-darkest hover:text-blue-dark">Accueil</a>
+                </div>
+                <div>
+                  <a href="#" class="text-lg no-underline text-grey-darkest hover:text-blue-dark ml-2">Inscription</a>
+                  <a href="#" class="text-lg no-underline text-grey-darkest hover:text-blue-dark ml-2">Connexion</a>
+                  <a href="#" class="text-lg no-underline text-grey-darkest hover:text-blue-dark ml-2">Rechercher</a>
+                </div>
+              </nav>
+        </header>
+        <main>
+            <section>
+                <form class="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4">
+                    <fieldset>
+                        <legend>Civilité</legend>
+                        <div class="mb-4">
+                            <label class="block text-gray-700 text-sm font-bold mb-2">
+                                <input type="radio" name="gender"
+                                    value="male" />
+                                <span>Monsieur</span>
+                            </label>
+                        </div>
+
+                        <div>
+                            <label >
+                                <input type="radio" name="gender"
+                                    value="female" />
+                                <span>Madame</span>
+                            </label>
+                        </div>
+
+                        <div>
+                            <label>
+                                <input type="radio" name="gender"
+                                    value="other" />
+                                <span>Autre</span>
+                            </label>
+                        </div>
+                    </fieldset>
+
+                    <fieldset><legend>Identité</legend>
+                        <div>
+                            <label for="firstName">Prénom</label>
+                            <input type="text" name="firstName" id="firstName"
+                                placeholder="Prénom">
+                        </div>
+
+                        <div>
+                            <label for="lastName">Nom</label>
+                            <input type="text" name="lastName" id="lastName"
+                                placeholder="Nom de famile">
+                        </div>
+
+                        <div>
+                            <label for="address">Adresse</label>
+                            <input type="text" name="address" id="address">
+                        </div>
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>Compte</legend>
+                        <div>
+                            <label for="email">Adresse email</label>
+                            <input type="email" name="email" id="email">
+                        </div>
+
+                        <div>
+                            <label for="password">Mot de passe</label>
+                            <input type="password" name="password"
+                                id="password">
+                        </div>
+
+                        <div>
+                            <label for="passwordValidation">Validation du mot de
+                                passe</label>
+                            <input type="password" name="passwordValidation"
+                                id="passwordValidation">
+                        </div>
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>Passions</legend>
+                        <div>
+                            <label>
+                                <input type="checkbox" id="hobby1"
+                                    name="computing" />
+                                <span>Informatique</span>
+                            </label>
+                        </div>
+
+                        <div>
+                            <label>
+                                <input type="checkbox" id="hobby2"
+                                    name="travel" />
+                                <span>Voyages</span>
+                            </label>
+                        </div>
+
+                        <div>
+                            <label>
+                                <input type="checkbox" id="hobby3"
+                                    name="workout" />
+                                <span>Sport</span>
+                            </label>
+                        </div>
+
+                        <div>
+                            <label>
+                                <input type="checkbox" id="hobby4"
+                                    name="reading" />
+                                <span>Lecture</span>
+                            </label>
+                        </div>
+                    </fieldset>
+                    <input type="button" name="submit" id="submit"
+                        value="Submit">
+                </form>
+            </section>
+        </main>
+        <footer class="rounded-lg shadow m-4 dark:bg-[#A7E2E3]">
+            <ul class="w-full mx-auto max-w-screen-xl p-4 md:flex md:items-center md:justify-between">
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="index.html">Inscription</a></li>
+                <li><a href="index.html">Connexion</a></li>
+                <li><a href="index.html">Rechercher</a></li>
+            </ul>
+        </footer>
+
+    </body>
+</html>

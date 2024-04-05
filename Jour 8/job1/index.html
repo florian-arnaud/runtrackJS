@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="./output.css" rel="stylesheet">
+        <title>Document</title>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Accueil</a></li>
+                    <li><a href="index.html">Inscription</a></li>
+                    <li><a href="index.html">Connexion</a></li>
+                    <li><a href="index.html">Rechercher</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section>
+                <form>
+                    <fieldset>
+                        <legend>Civilité</legend>
+                        <div>
+                            <label>
+                                <input type="radio" name="gender"
+                                    value="male" />
+                                <span>Monsieur</span>
+                            </label>
+                        </div>
+
+                        <div>
+                            <label>
+                                <input type="radio" name="gender"
+                                    value="female" />
+                                <span>Madame</span>
+                            </label>
+                        </div>
+
+                        <div>
+                            <label>
+                                <input type="radio" name="gender"
+                                    value="other" />
+                                <span>Autre</span>
+                            </label>
+                        </div>
+                    </fieldset>
+
+                    <fieldset><legend>Identité</legend>
+                        <div>
+                            <label for="firstName">Prénom</label>
+                            <input type="text" name="firstName" id="firstName"
+                                placeholder="Prénom">
+                        </div>
+
+                        <div>
+                            <label for="lastName">Nom</label>
+                            <input type="text" name="lastName" id="lastName"
+                                placeholder="Nom de famile">
+                        </div>
+
+                        <div>
+                            <label for="address">Adresse</label>
+                            <input type="text" name="address" id="address">
+                        </div>
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>Compte</legend>
+                        <div>
+                            <label for="email">Adresse email</label>
+                            <input type="email" name="email" id="email">
+                        </div>
+
+                        <div>
+                            <label for="password">Mot de passe</label>
+                            <input type="password" name="password"
+                                id="password">
+                        </div>
+
+                        <div>
+                            <label for="passwordValidation">Validation du mot de
+                                passe</label>
+                            <input type="password" name="passwordValidation"
+                                id="passwordValidation">
+                        </div>
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>Passions</legend>
+                        <div>
+                            <label>
+                                <input type="checkbox" id="hobby1"
+                                    name="computing" />
+                                <span>Informatique</span>
+                            </label>
+                        </div>
+
+                        <div>
+                            <label>
+                                <input type="checkbox" id="hobby2"
+                                    name="travel" />
+                                <span>Voyages</span>
+                            </label>
+                        </div>
+
+                        <div>
+                            <label>
+                                <input type="checkbox" id="hobby3"
+                                    name="workout" />
+                                <span>Sport</span>
+                            </label>
+                        </div>
+
+                        <div>
+                            <label>
+                                <input type="checkbox" id="hobby4"
+                                    name="reading" />
+                                <span>Lecture</span>
+                            </label>
+                        </div>
+                    </fieldset>
+                    <input type="button" name="submit" id="submit"
+                        value="Submit">
+                </form>
+            </section>
+        </main>
+        <footer>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="index.html">Inscription</a></li>
+                <li><a href="index.html">Connexion</a></li>
+                <li><a href="index.html">Rechercher</a></li>
+            </ul>
+        </footer>
+
+    </body>
+</html>
