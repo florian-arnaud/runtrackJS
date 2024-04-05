@@ -1,0 +1,18 @@
+[{
+        "id":1,
+        "firstName": "Jean-Michel",
+        "lastName": "Crapaud",
+        "email": "jm.crapaud@gmail.com",
+        "password": "azerty123",
+        "role": 1
+    },
+
+    {
+        "id":2,
+        "firstName": "Bernard",
+        "lastName": "Minet",
+        "email": "b.minet@gmail.com",
+        "password":"motdepasse",
+        "role": 2
+    }
+]
