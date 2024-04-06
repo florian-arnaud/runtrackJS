@@ -14,5 +14,23 @@
         "email": "b.minet@gmail.com",
         "password":"motdepasse",
         "role": 2
+    },
+
+    {
+        "id":3,
+        "firstName": "test",
+        "lastName": "teste",
+        "email": "test@gmail.com",
+        "password":"test",
+        "role": 1
+    },
+
+    {
+        "id":4,
+        "firstName": "admin",
+        "lastName": "admmin",
+        "email": "admin@gmail.com",
+        "password":"root",
+        "role": 3
     }
 ]
